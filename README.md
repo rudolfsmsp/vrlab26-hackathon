@@ -69,6 +69,124 @@ chmod +x Scripts/*.sh
 Allow Unreal to compile C++ modules on first open. Connect a VR headset and use **VR Preview** to play.
 
 Full instructions: **[Docs/SETUP.md](Docs/SETUP.md)**
+## Git & GitHub cheatsheet (copy & paste)
+
+New to Git? Run these commands in a terminal from the project folder (`vrlab26-hackathon/`).
+
+> **Tip:** Install [Git](https://git-scm.com/downloads) and [Git LFS](https://git-lfs.github.com/) first. On Windows, use **Git Bash** or PowerShell.
+
+### First time — get the project
+
+```bash
+git clone https://github.com/rudolfsmsp/vrlab26-hackathon.git
+cd vrlab26-hackathon
+git lfs install
+git lfs pull
+```
+
+### Every day — get the latest changes from GitHub
+
+```bash
+cd vrlab26-hackathon
+git pull origin main
+git lfs pull
+```
+
+### See what changed locally
+
+```bash
+git status                  # changed / new / deleted files
+git diff                    # line-by-line code changes (unstaged)
+git lfs status              # large files (Blender, textures, .uasset)
+```
+
+### Save your work and upload to GitHub
+
+**1. Create a branch** (keeps `main` clean — use your feature name):
+
+```bash
+git checkout main
+git pull origin main
+git checkout -b feature/my-change
+```
+
+**2. Stage files** (tell Git what to include):
+
+```bash
+git add .                           # all changes
+git add path/to/file.cpp            # one file only
+git add Content/VRLab26/            # one folder
+```
+
+**3. Commit** (save a snapshot locally):
+
+```bash
+git commit -m "Add grabbable mug prop and import mesh"
+```
+
+**4. Push to GitHub** (upload your branch):
+
+```bash
+git push -u origin feature/my-change
+```
+
+**5. Open a Pull Request** on GitHub:  
+https://github.com/rudolfsmsp/vrlab26-hackathon/compare  
+→ choose your branch → **Create pull request** → merge after review.
+
+### Push updates to an existing branch
+
+```bash
+git add .
+git commit -m "Fix teleport height check"
+git push
+```
+
+### Working with large files (Unreal / Blender / audio)
+
+This repo uses **Git LFS** for binaries. Always run once after clone:
+
+```bash
+git lfs install
+```
+
+Before every push with art or Unreal assets:
+
+```bash
+git lfs status          # confirm large files are tracked by LFS
+git lfs pull            # download teammates' binary assets
+```
+
+If a push fails due to large files, make sure the file type is in `.gitattributes` (e.g. `.uasset`, `.blend`, `.fbx`, `.png`, `.wav`).
+
+### Useful extras
+
+```bash
+git log --oneline -5              # last 5 commits
+git branch                        # list local branches
+git checkout main                 # switch back to main
+git fetch origin                  # check GitHub without merging
+git pull origin main              # download + merge latest main
+```
+
+### If something goes wrong
+
+| Problem | Command |
+|---------|---------|
+| Discard **uncommitted** changes to one file | `git checkout -- path/to/file` |
+| Discard **all** uncommitted changes | `git checkout -- .` |
+| Pull rejected (remote has new commits) | `git pull origin main` then fix conflicts, then `git push` |
+| Wrong files staged | `git reset HEAD path/to/file` |
+| See remote URL | `git remote -v` |
+
+### Command flow (at a glance)
+
+```
+pull latest  →  edit files  →  git add  →  git commit  →  git push  →  Pull Request on GitHub
+```
+
+More team rules: [CONTRIBUTING.md](CONTRIBUTING.md)
+
 
 ## Documentation
 
