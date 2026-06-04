@@ -1,6 +1,7 @@
 # VRLab26 — Repository Architecture
 
 High-level layout for the VR game monorepo.
+> **Detailed guide:** [ARCHITECTURE_README.md](./ARCHITECTURE_README.md) explains where to put each type of file, with examples and rationale.
 
 ```
 vrlab26-hackathon/

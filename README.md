@@ -26,7 +26,9 @@ OpenXR virtual reality game built with **Unreal Engine 5.5+**, **C++**, and **Bl
 └── .github/workflows/     # CI validation
 ```
 
-See [Docs/ARCHITECTURE.md](Docs/ARCHITECTURE.md) for the full system diagram.
+**New to the repo?** Read **[Docs/ARCHITECTURE_README.md](Docs/ARCHITECTURE_README.md)** — where to put code, art, audio, and config (and why).
+
+See also [Docs/ARCHITECTURE.md](Docs/ARCHITECTURE.md) for the system diagram.
 
 ## Quick start
 
@@ -73,6 +75,7 @@ Full instructions: **[Docs/SETUP.md](Docs/SETUP.md)**
 | Doc | Description |
 |-----|-------------|
 | [SETUP.md](Docs/SETUP.md) | Install UE, OpenXR, Blender, build from source |
+| [ARCHITECTURE_README.md](Docs/ARCHITECTURE_README.md) | **Where to put what** — folders, workflows, examples |
 | [ARCHITECTURE.md](Docs/ARCHITECTURE.md) | Repo structure & system layers |
 | [BLENDER_PIPELINE.md](Docs/BLENDER_PIPELINE.md) | Blender → Unreal export workflow |
 | [VR_DESIGN.md](Docs/VR_DESIGN.md) | Comfort, performance, interaction guidelines |
