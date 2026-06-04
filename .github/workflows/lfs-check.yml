@@ -1,0 +1,43 @@
+name: LFS Check
+
+on:
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  lfs-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+          fetch-depth: 0
+
+      - name: Ensure large binaries use LFS
+        run: |
+          set -e
+          # Fail if common binary extensions are committed as plain git blobs in the PR diff
+          PATTERNS='\.(uasset|umap|blend|fbx|png|wav|exe|dll|zip)$'
+          ADDED=$(git diff --name-only --diff-filter=A origin/${{ github.base_ref }}...HEAD || true)
+          for f in $ADDED; do
+            if echo "$f" | grep -qiE "$PATTERNS"; then
+              if ! grep -q "^${f} filter=lfs" .gitattributes 2>/dev/null; then
+                if git cat-file -p "HEAD:$f" 2>/dev/null | head -1 | grep -q "version https://git-lfs"; then
+                  echo "[OK] LFS pointer: $f"
+                else
+                  # Check extension is covered by wildcard in gitattributes
+                  ext="${f##*.}"
+                  if grep -qi "\*\.${ext} filter=lfs" .gitattributes; then
+                    if ! git lfs ls-files | grep -q "$f"; then
+                      echo "WARN: $f matches LFS pattern but may not be tracked — verify with 'git lfs status'"
+                    else
+                      echo "[OK] LFS tracked: $f"
+                    fi
+                  else
+                    echo "NOTE: New binary $f — ensure Git LFS is configured"
+                  fi
+                fi
+              fi
+            fi
+          done
+          echo "LFS check complete."

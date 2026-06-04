@@ -1,0 +1,37 @@
+name: Validate Project
+
+on:
+  push:
+    branches: [main, develop, 'cursor/**']
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Verify Git LFS
+        run: |
+          git lfs version
+          git lfs ls-files || true
+
+      - name: Validate structure
+        run: bash Scripts/validate-project.sh
+
+      - name: Check uproject plugins
+        run: |
+          python3 - <<'PY'
+          import json
+          with open("VRLab26.uproject") as f:
+              proj = json.load(f)
+          plugins = {p["Name"] for p in proj.get("Plugins", [])}
+          required = {"OpenXR", "EnhancedInput"}
+          missing = required - plugins
+          assert not missing, f"Missing plugins: {missing}"
+          print("Required VR plugins present:", required)
+          PY

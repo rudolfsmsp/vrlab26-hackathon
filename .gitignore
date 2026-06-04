@@ -1,0 +1,71 @@
+# =============================================================================
+# VRLab26 — Unreal Engine VR Game Repository
+# =============================================================================
+
+# --- Unreal Engine generated ---
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/*/
+!Build/*/BatchFiles/
+!Build/*/Build.version
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# --- IDE / editor ---
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# --- Compiled objects ---
+*.o
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.app
+*.ipa
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Blender backups ---
+*.blend1
+*.blend2
+
+# --- Local secrets / overrides ---
+.env
+.env.*
+*.local
+Local/
+
+# --- Logs & temp ---
+*.log
+*.tmp
+*~
+*.swp

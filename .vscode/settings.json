@@ -1,0 +1,17 @@
+{
+	"files.exclude": {
+		"**/Binaries": true,
+		"**/DerivedDataCache": true,
+		"**/Intermediate": true,
+		"**/Saved": true
+	},
+	"C_Cpp.default.includePath": [
+		"${workspaceFolder}/Source/**"
+	],
+	"C_Cpp.errorSquiggles": "disabled",
+	"files.associations": {
+		"*.ini": "ini",
+		"*.uproject": "jsonc",
+		"*.uplugin": "jsonc"
+	}
+}
