@@ -6,6 +6,14 @@
 #include "Components/CapsuleComponent.h"
 #include "MotionControllerComponent.h"
 
+namespace VRLab26OpenXRSources
+{
+	const FName LeftGrip(TEXT("LeftGrip"));
+	const FName RightGrip(TEXT("RightGrip"));
+	const FName LeftAim(TEXT("LeftAim"));
+	const FName RightAim(TEXT("RightAim"));
+}
+
 AVRLab26VRCharacter::AVRLab26VRCharacter()
 {
 	PrimaryActorTick.bCanEverTick = false;
@@ -20,16 +28,37 @@ AVRLab26VRCharacter::AVRLab26VRCharacter()
 	VRCamera->SetRelativeLocation(FVector(0.f, 0.f, 64.f));
 	VRCamera->bUsePawnControlRotation = false;
 
-	LeftMotionController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("LeftMotionController"));
-	LeftMotionController->SetupAttachment(VRCamera);
-	LeftMotionController->SetTrackingSource(EControllerHand::Left);
+	LeftGripController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("LeftGripController"));
+	LeftGripController->SetupAttachment(VRCamera);
 
-	RightMotionController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("RightMotionController"));
-	RightMotionController->SetupAttachment(VRCamera);
-	RightMotionController->SetTrackingSource(EControllerHand::Right);
+	RightGripController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("RightGripController"));
+	RightGripController->SetupAttachment(VRCamera);
+
+	LeftAimController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("LeftAimController"));
+	LeftAimController->SetupAttachment(VRCamera);
+
+	RightAimController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("RightAimController"));
+	RightAimController->SetupAttachment(VRCamera);
+}
+
+void AVRLab26VRCharacter::ConfigureMotionController(UMotionControllerComponent* Component, FName MotionSource) const
+{
+	if (!Component)
+	{
+		return;
+	}
+
+	Component->SetTrackingMotionSource(MotionSource);
+	Component->bDisplayDeviceModel = true;
 }
 
 void AVRLab26VRCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	using namespace VRLab26OpenXRSources;
+	ConfigureMotionController(LeftGripController, LeftGrip);
+	ConfigureMotionController(RightGripController, RightGrip);
+	ConfigureMotionController(LeftAimController, LeftAim);
+	ConfigureMotionController(RightAimController, RightAim);
 }

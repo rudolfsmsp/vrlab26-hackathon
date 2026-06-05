@@ -26,6 +26,12 @@ public class VRLab26 : ModuleRules
 			"SlateCore"
 		});
 
+		if (Target.Platform == UnrealTargetPlatform.Android)
+		{
+			PrivateDependencyModuleNames.Add("Launch");
+			PrivateDependencyModuleNames.Add("ApplicationCore");
+		}
+
 		PublicIncludePaths.AddRange(new string[]
 		{
 			Path.Combine(ModuleDirectory, "Public")

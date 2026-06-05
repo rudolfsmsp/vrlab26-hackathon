@@ -16,11 +16,13 @@ Everything you need to clone, build, and run the VRLab26 VR game locally.
 
 ### VR hardware / runtime
 
+**Primary target: Meta Quest 2 & Quest 3** — see **[META_QUEST.md](./META_QUEST.md)** for Link, Meta XR plugin, and APK packaging.
+
 | Platform | Runtime |
 |----------|---------|
-| Meta Quest (PC) | Meta Quest Link + OpenXR |
+| Meta Quest 2/3 (PC) | Meta Quest Link + OpenXR + Meta XR plugin |
 | SteamVR headsets | SteamVR + OpenXR |
-| Meta Quest (standalone) | Android SDK + UE Android support |
+| Meta Quest 2/3 (standalone) | Meta XR plugin + Android SDK + `Scripts/package-quest.ps1` |
 
 ## Quick start (Windows)
 

@@ -71,8 +71,19 @@ foreach ($tool in @("blender")) {
 }
 
 Write-Host ""
+$MetaPlugin = Join-Path $ProjectRoot "Plugins\MetaXR\OculusXR.uplugin"
+if (Test-Path $MetaPlugin) {
+    Write-Host "[OK] Meta XR plugin found (Quest 2/3 standalone ready)"
+} else {
+    Write-Host "[!!] Meta XR plugin NOT installed — required for Quest APK builds" -ForegroundColor Yellow
+    Write-Host "     See Plugins/README.md and Docs/META_QUEST.md"
+}
+
+Write-Host ""
 Write-Host "Next steps:" -ForegroundColor Green
 Write-Host "  1. Open VRLab26.uproject in Unreal Engine 5.5+"
 Write-Host "  2. Allow C++ module rebuild when prompted"
-Write-Host "  3. Connect VR headset and use VR Preview to play"
-Write-Host "  4. Read Docs/SETUP.md for full documentation"
+Write-Host "  3. Install Meta XR plugin for Quest 2/3 (Plugins/README.md)"
+Write-Host "  4. Connect Quest via Link and use VR Preview"
+Write-Host "  5. Read Docs/META_QUEST.md for standalone APK builds"
+Write-Host "  6. Read Docs/SETUP.md for full documentation"

@@ -9,6 +9,10 @@
 class UCameraComponent;
 class UMotionControllerComponent;
 
+/**
+ * OpenXR VR pawn tuned for Meta Quest 2/3 (Link and standalone).
+ * Uses OpenXR Grip motion sources recommended by Meta for controller tracking.
+ */
 UCLASS()
 class VRLAB26_API AVRLab26VRCharacter : public ACharacter
 {
@@ -23,9 +27,20 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "VR")
 	TObjectPtr<UCameraComponent> VRCamera;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "VR")
-	TObjectPtr<UMotionControllerComponent> LeftMotionController;
+	/** Controller grip pose — attach held objects here. */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "VR|Quest")
+	TObjectPtr<UMotionControllerComponent> LeftGripController;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "VR")
-	TObjectPtr<UMotionControllerComponent> RightMotionController;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "VR|Quest")
+	TObjectPtr<UMotionControllerComponent> RightGripController;
+
+	/** Controller aim pose — use for line traces / UI pointers. */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "VR|Quest")
+	TObjectPtr<UMotionControllerComponent> LeftAimController;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "VR|Quest")
+	TObjectPtr<UMotionControllerComponent> RightAimController;
+
+private:
+	void ConfigureMotionController(UMotionControllerComponent* Component, FName MotionSource) const;
 };

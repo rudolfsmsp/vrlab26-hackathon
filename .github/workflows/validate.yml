@@ -30,8 +30,11 @@ jobs:
           with open("VRLab26.uproject") as f:
               proj = json.load(f)
           plugins = {p["Name"] for p in proj.get("Plugins", [])}
-          required = {"OpenXR", "EnhancedInput"}
+          required = {"OpenXR", "EnhancedInput", "OpenXRHandTracking"}
           missing = required - plugins
           assert not missing, f"Missing plugins: {missing}"
-          print("Required VR plugins present:", required)
+          targets = set(proj.get("TargetPlatforms", []))
+          assert "Android" in targets, "Android target required for Meta Quest"
+          print("Required VR/Quest plugins present:", required)
+          print("Target platforms include Android for Quest standalone")
           PY

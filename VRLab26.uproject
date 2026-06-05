@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"EngineAssociation": "5.5",
 	"Category": "Games",
-	"Description": "VRLab26 Hackathon — OpenXR virtual reality game built with Unreal Engine and Blender.",
+	"Description": "VRLab26 Hackathon — VR game for Meta Quest 2/3 via Unreal Engine and OpenXR.",
 	"Modules": [
 		{
 			"Name": "VRLab26",
@@ -13,19 +13,52 @@
 	"Plugins": [
 		{
 			"Name": "OpenXR",
-			"Enabled": true
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android"
+			]
 		},
 		{
 			"Name": "OpenXREyeTracker",
-			"Enabled": true
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Android"
+			]
 		},
 		{
 			"Name": "OpenXRHandTracking",
-			"Enabled": true
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Android"
+			]
 		},
 		{
 			"Name": "EnhancedInput",
 			"Enabled": true
+		},
+		{
+			"Name": "OculusXR",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Android"
+			],
+			"MarketplaceURL": "",
+			"PlatformAllowList": [
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "AndroidPermission",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
 		},
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -37,7 +70,6 @@
 	],
 	"TargetPlatforms": [
 		"Windows",
-		"Linux",
 		"Android"
 	]
 }

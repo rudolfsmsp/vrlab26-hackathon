@@ -11,6 +11,25 @@ OpenXR virtual reality game built with **Unreal Engine 5.5+**, **C++**, and **Bl
 | 3D art | Blender 4.x → FBX → Unreal |
 | VR | OpenXR (Quest Link, SteamVR, standalone Android) |
 | Version control | Git + **Git LFS** for binary assets |
+| VR headsets | **Meta Quest 2 & Quest 3** (Link + standalone APK) |
+
+## Meta Quest 2 / 3
+
+This project is configured for **Meta Quest 2** and **Quest 3** via Unreal Engine + OpenXR:
+
+| Path | Use |
+|------|-----|
+| **PC VR** | Quest Link → Unreal **VR Preview** (fastest for daily dev) |
+| **Standalone** | Package Android APK → install on headset |
+
+**Setup guide:** **[Docs/META_QUEST.md](Docs/META_QUEST.md)**  
+**Meta XR plugin install:** **[Plugins/README.md](Plugins/README.md)** (required once per machine, not in Git)
+
+```powershell
+# Package for Quest after Android SDK is configured
+.\Scripts\package-quest.ps1
+```
+
 
 ## Repository layout
 
