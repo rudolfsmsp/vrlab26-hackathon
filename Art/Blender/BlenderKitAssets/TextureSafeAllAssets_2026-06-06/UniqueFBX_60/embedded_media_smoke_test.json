@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-06-06T23:17:25",
+  "source_dir": "C:\\Users\\rudol\\Desktop\\BlenderKit_TextureSafe_AllAssets_2026-06-06_220900\\UniqueFBX_60",
+  "test_files": [
+    "02_model_lamp-floor-lamp_e72444d5.fbx",
+    "23_model_painting_3d560729.fbx",
+    "56_model_vinyl-player-41-33-12_3e42210c.fbx",
+    "60_model_female-nurse-medical-staff_b4589a8c.fbx"
+  ],
+  "results": [
+    {
+      "fbx_file": "02_model_lamp-floor-lamp_e72444d5.fbx",
+      "imported_mesh_count": 17,
+      "missing_image_count": 0,
+      "missing_images": []
+    },
+    {
+      "fbx_file": "23_model_painting_3d560729.fbx",
+      "imported_mesh_count": 1,
+      "missing_image_count": 0,
+      "missing_images": []
+    },
+    {
+      "fbx_file": "56_model_vinyl-player-41-33-12_3e42210c.fbx",
+      "imported_mesh_count": 29,
+      "missing_image_count": 0,
+      "missing_images": []
+    },
+    {
+      "fbx_file": "60_model_female-nurse-medical-staff_b4589a8c.fbx",
+      "imported_mesh_count": 3,
+      "missing_image_count": 0,
+      "missing_images": []
+    }
+  ],
+  "fbx_with_missing_images": 0,
+  "fbx_with_no_meshes": 0
+}
