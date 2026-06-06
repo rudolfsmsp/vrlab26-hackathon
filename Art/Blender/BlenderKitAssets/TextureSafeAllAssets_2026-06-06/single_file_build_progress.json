@@ -1,0 +1,308 @@
+{
+  "package_dir": "C:\\Users\\rudol\\Desktop\\BlenderKit_TextureSafe_AllAssets_2026-06-06_220900",
+  "master_blend": "C:\\Users\\rudol\\Desktop\\BlenderKit_TextureSafe_AllAssets_2026-06-06_220900\\SINGLE_FILE_all_60_assets_packed.blend",
+  "expected_library_count": 60,
+  "appended_count": 60,
+  "appended": [
+    {
+      "index": 1,
+      "library": "01_model_modern-ceiling-lamp_6302a2be.blend",
+      "collection": "01_model_modern-ceiling-lamp_6302a2be"
+    },
+    {
+      "index": 2,
+      "library": "02_model_lamp-floor-lamp_e72444d5.blend",
+      "collection": "02_model_lamp-floor-lamp_e72444d5"
+    },
+    {
+      "index": 3,
+      "library": "03_model_kitty-night-lamp_6aae5842.blend",
+      "collection": "03_model_kitty-night-lamp_6aae5842"
+    },
+    {
+      "index": 4,
+      "library": "04_model_plant-set_ea5c40f5.blend",
+      "collection": "04_model_plant-set_ea5c40f5"
+    },
+    {
+      "index": 5,
+      "library": "05_model_hanging-plant_caebdd9c.blend",
+      "collection": "05_model_hanging-plant_caebdd9c"
+    },
+    {
+      "index": 6,
+      "library": "06_model_plant_a713a9d1.blend",
+      "collection": "06_model_plant_a713a9d1"
+    },
+    {
+      "index": 7,
+      "library": "07_model_plant_3285f787.blend",
+      "collection": "07_model_plant_3285f787"
+    },
+    {
+      "index": 8,
+      "library": "08_model_couch_32206625.blend",
+      "collection": "08_model_couch_32206625"
+    },
+    {
+      "index": 9,
+      "library": "09_model_william-302-zanotta-couch_596d0928.blend",
+      "collection": "09_model_william-302-zanotta-couch_596d0928"
+    },
+    {
+      "index": 10,
+      "library": "10_model_lobby-chair_b5a6b421.blend",
+      "collection": "10_model_lobby-chair_b5a6b421"
+    },
+    {
+      "index": 11,
+      "library": "11_model_gardenbed_0223c105.blend",
+      "collection": "11_model_gardenbed_0223c105"
+    },
+    {
+      "index": 12,
+      "library": "12_model_bunny-plushie_afe8ec3b.blend",
+      "collection": "12_model_bunny-plushie_afe8ec3b"
+    },
+    {
+      "index": 13,
+      "library": "13_model_elephant-plushie_accb3f43.blend",
+      "collection": "13_model_elephant-plushie_accb3f43"
+    },
+    {
+      "index": 14,
+      "library": "14_model_soft-plush-duck_d782d507.blend",
+      "collection": "14_model_soft-plush-duck_d782d507"
+    },
+    {
+      "index": 15,
+      "library": "15_model_plush-dog-toy-akita-shiba-inu_830a85cd.blend",
+      "collection": "15_model_plush-dog-toy-akita-shiba-inu_830a85cd"
+    },
+    {
+      "index": 16,
+      "library": "16_model_tv-wall_4828e374.blend",
+      "collection": "16_model_tv-wall_4828e374"
+    },
+    {
+      "index": 17,
+      "library": "17_model_table-coffee-table_8c588279.blend",
+      "collection": "17_model_table-coffee-table_8c588279"
+    },
+    {
+      "index": 18,
+      "library": "18_model_office-table-desk_120f2f90.blend",
+      "collection": "18_model_office-table-desk_120f2f90"
+    },
+    {
+      "index": 19,
+      "library": "19_model_tv-unit-b_28c2f25a.blend",
+      "collection": "19_model_tv-unit-b_28c2f25a"
+    },
+    {
+      "index": 20,
+      "library": "20_model_office-chair_fdd9ddb8.blend",
+      "collection": "20_model_office-chair_fdd9ddb8"
+    },
+    {
+      "index": 21,
+      "library": "21_model_painting_2b90b3cb.blend",
+      "collection": "21_model_painting_2b90b3cb"
+    },
+    {
+      "index": 22,
+      "library": "22_model_painting_44892441.blend",
+      "collection": "22_model_painting_44892441"
+    },
+    {
+      "index": 23,
+      "library": "23_model_painting_3d560729.blend",
+      "collection": "23_model_painting_3d560729"
+    },
+    {
+      "index": 24,
+      "library": "24_model_painting_98f8cae5.blend",
+      "collection": "24_model_painting_98f8cae5"
+    },
+    {
+      "index": 25,
+      "library": "25_model_mitar-01-r-d_c81736d1.blend",
+      "collection": "25_model_mitar-01-r-d_c81736d1"
+    },
+    {
+      "index": 26,
+      "library": "26_model_blood-pressure-machine_4ff24eb7.blend",
+      "collection": "26_model_blood-pressure-machine_4ff24eb7"
+    },
+    {
+      "index": 27,
+      "library": "27_model_clipboard-and-stethoscope_f2f48677.blend",
+      "collection": "27_model_clipboard-and-stethoscope_f2f48677"
+    },
+    {
+      "index": 28,
+      "library": "28_model_medi-trolly_55ab4191.blend",
+      "collection": "28_model_medi-trolly_55ab4191"
+    },
+    {
+      "index": 29,
+      "library": "29_model_fabius-tiro_2ad724d0.blend",
+      "collection": "29_model_fabius-tiro_2ad724d0"
+    },
+    {
+      "index": 30,
+      "library": "30_model_ugeo-h60-ultrasound-scanner_eac85d78.blend",
+      "collection": "30_model_ugeo-h60-ultrasound-scanner_eac85d78"
+    },
+    {
+      "index": 31,
+      "library": "31_model_medical-screen_fda1c9ad.blend",
+      "collection": "31_model_medical-screen_fda1c9ad"
+    },
+    {
+      "index": 32,
+      "library": "32_model_ultracheck-200-examination-couch_bcd8529e.blend",
+      "collection": "32_model_ultracheck-200-examination-couch_bcd8529e"
+    },
+    {
+      "index": 33,
+      "library": "33_model_first-aid-cabinet-red_d5be9169.blend",
+      "collection": "33_model_first-aid-cabinet-red_d5be9169"
+    },
+    {
+      "index": 34,
+      "library": "34_model_ring-light-with-lense_fa76744e.blend",
+      "collection": "34_model_ring-light-with-lense_fa76744e"
+    },
+    {
+      "index": 35,
+      "library": "35_model_logiq-ultrasound-machine_402e358b.blend",
+      "collection": "35_model_logiq-ultrasound-machine_402e358b"
+    },
+    {
+      "index": 36,
+      "library": "36_model_syringe_1194f86a.blend",
+      "collection": "36_model_syringe_1194f86a"
+    },
+    {
+      "index": 37,
+      "library": "37_model_vaccine-syringe_ede1b009.blend",
+      "collection": "37_model_vaccine-syringe_ede1b009"
+    },
+    {
+      "index": 38,
+      "library": "38_model_edta-blood-sample-collection_b96ac92b.blend",
+      "collection": "38_model_edta-blood-sample-collection_b96ac92b"
+    },
+    {
+      "index": 39,
+      "library": "39_model_edta-blood-sample_7af4a1a3.blend",
+      "collection": "39_model_edta-blood-sample_7af4a1a3"
+    },
+    {
+      "index": 40,
+      "library": "40_model_table-centrifuge-with-blood-samples_84de8a81.blend",
+      "collection": "40_model_table-centrifuge-with-blood-samples_84de8a81"
+    },
+    {
+      "index": 41,
+      "library": "41_model_digital-oscilloscope-ds4012-rigol_64f2fd79.blend",
+      "collection": "41_model_digital-oscilloscope-ds4012-rigol_64f2fd79"
+    },
+    {
+      "index": 42,
+      "library": "42_model_yumi-low-table-2_50a5b2e3.blend",
+      "collection": "42_model_yumi-low-table-2_50a5b2e3"
+    },
+    {
+      "index": 43,
+      "library": "43_model_wooden-coffe-table_1bc793e5.blend",
+      "collection": "43_model_wooden-coffe-table_1bc793e5"
+    },
+    {
+      "index": 44,
+      "library": "44_material_cartoon-animal-wallpaper_754e780c.blend",
+      "collection": "44_material_cartoon-animal-wallpaper_754e780c"
+    },
+    {
+      "index": 45,
+      "library": "45_material_blue-floral-wallpaper_72ec3d34.blend",
+      "collection": "45_material_blue-floral-wallpaper_72ec3d34"
+    },
+    {
+      "index": 46,
+      "library": "46_material_cloudy-wallpaper_ab54e7d0.blend",
+      "collection": "46_material_cloudy-wallpaper_ab54e7d0"
+    },
+    {
+      "index": 47,
+      "library": "47_material_procedural-sky_fc205047.blend",
+      "collection": "47_material_procedural-sky_fc205047"
+    },
+    {
+      "index": 48,
+      "library": "48_material_rgb-glow_6c1fde68.blend",
+      "collection": "48_material_rgb-glow_6c1fde68"
+    },
+    {
+      "index": 49,
+      "library": "49_material_speckled-toon-shader-eevee-only_8b8e5fdf.blend",
+      "collection": "49_material_speckled-toon-shader-eevee-only_8b8e5fdf"
+    },
+    {
+      "index": 50,
+      "library": "50_material_wood-floor_e62d3832.blend",
+      "collection": "50_material_wood-floor_e62d3832"
+    },
+    {
+      "index": 51,
+      "library": "51_material_narrow-wooden-plank-flooring_61ce5e73.blend",
+      "collection": "51_material_narrow-wooden-plank-flooring_61ce5e73"
+    },
+    {
+      "index": 52,
+      "library": "52_material_marble_e6beb3c2.blend",
+      "collection": "52_material_marble_e6beb3c2"
+    },
+    {
+      "index": 53,
+      "library": "53_model_children-playground-slide_bf5a0067.blend",
+      "collection": "53_model_children-playground-slide_bf5a0067"
+    },
+    {
+      "index": 54,
+      "library": "54_model_playground-slide-swing-plataform_8c370a48.blend",
+      "collection": "54_model_playground-slide-swing-plataform_8c370a48"
+    },
+    {
+      "index": 55,
+      "library": "55_model_playground-swing_78d1f498.blend",
+      "collection": "55_model_playground-swing_78d1f498"
+    },
+    {
+      "index": 56,
+      "library": "56_model_vinyl-player-41-33-12_3e42210c.blend",
+      "collection": "56_model_vinyl-player-41-33-12_3e42210c"
+    },
+    {
+      "index": 57,
+      "library": "57_model_artifical-wall-panel-gardenia_3bc4c5d5.blend",
+      "collection": "57_model_artifical-wall-panel-gardenia_3bc4c5d5"
+    },
+    {
+      "index": 58,
+      "library": "58_model_clothes-rack-with-coat-hangers_ad445fb4.blend",
+      "collection": "58_model_clothes-rack-with-coat-hangers_ad445fb4"
+    },
+    {
+      "index": 59,
+      "library": "59_model_stand_92145d70.blend",
+      "collection": "59_model_stand_92145d70"
+    },
+    {
+      "index": 60,
+      "library": "60_model_female-nurse-medical-staff_b4589a8c.blend",
+      "collection": "60_model_female-nurse-medical-staff_b4589a8c"
+    }
+  ]
+}

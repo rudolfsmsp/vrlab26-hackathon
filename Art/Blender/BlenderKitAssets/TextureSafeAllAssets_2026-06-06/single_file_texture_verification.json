@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-06-06T22:37:03",
+  "package_dir": "C:\\Users\\rudol\\Desktop\\BlenderKit_TextureSafe_AllAssets_2026-06-06_220900",
+  "single_file_master": "C:\\Users\\rudol\\Desktop\\BlenderKit_TextureSafe_AllAssets_2026-06-06_220900\\SINGLE_FILE_all_60_assets_packed.blend",
+  "single_file_bytes": 1361887663,
+  "expected_assets": 60,
+  "progress_appended_count": 60,
+  "appended_collection_count": 60,
+  "object_count": 889,
+  "mesh_count": 784,
+  "material_count": 1519,
+  "image_count": 1616,
+  "packable_image_count": 1611,
+  "packed_image_count": 1611,
+  "fallback_image_count": 4,
+  "unpacked_existing_count": 0,
+  "unpacked_existing": [],
+  "missing_image_count": 0,
+  "missing_images": [],
+  "verification_passed": true
+}
