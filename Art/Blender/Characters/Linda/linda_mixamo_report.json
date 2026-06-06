@@ -1,0 +1,62 @@
+{
+  "name": "Linda",
+  "asset_base_id": "b4589a8c-4edc-44ca-b0f8-3688d4b20e4f",
+  "blenderkit_display_name": "Female Nurse Medical Staff",
+  "blenderkit_asset_id": "3e49362d-5944-4ed0-8d94-9fceca2bd8b2",
+  "license": "royalty_free",
+  "author": {
+    "id": "1367301",
+    "name": "Junaid Alam"
+  },
+  "source_blend": "Art/Blender/Characters/Linda/linda.blend",
+  "mixamo_fbx": "Art/Blender/Characters/Linda/linda_mixamo_ready.fbx",
+  "preview_png": "Art/Blender/Characters/Linda/linda_preview.png",
+  "mixamo_export_policy": {
+    "mesh_only_export": true,
+    "no_animation": true,
+    "no_armature_in_fbx": true,
+    "no_camera_or_light_in_fbx": true
+  },
+  "source_verification": {
+    "mesh_count": 3,
+    "armature_count": 0,
+    "camera_count": 0,
+    "light_count": 0,
+    "bbox": {
+      "min": [
+        -0.7157661318778992,
+        -0.12170308828353882,
+        0.012375783175230026
+      ],
+      "max": [
+        0.7059597373008728,
+        0.26717594265937805,
+        1.7820265293121338
+      ]
+    }
+  },
+  "fbx_verification": {
+    "mesh_count": 3,
+    "armature_count": 0,
+    "camera_count": 0,
+    "light_count": 0,
+    "materials": [
+      "Female_Nurse_Body",
+      "Female_Nurse_Costume",
+      "Female_Nurse_Hair",
+      "Female_Nurse_Head"
+    ],
+    "bbox": {
+      "min": [
+        -0.7157660722732544,
+        -0.12170308828353882,
+        0.012375778518617153
+      ],
+      "max": [
+        0.7059597373008728,
+        0.2671760320663452,
+        1.7820264101028442
+      ]
+    }
+  }
+}
