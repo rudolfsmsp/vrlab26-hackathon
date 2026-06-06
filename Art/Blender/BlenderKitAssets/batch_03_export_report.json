@@ -1,0 +1,326 @@
+{
+  "generated_at": "2026-06-06T18:38:42.430565+00:00",
+  "export_dir": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03",
+  "requested_count": 16,
+  "requested_material_count": 9,
+  "requested_model_count": 7,
+  "exported_count": 16,
+  "failed_count": 0,
+  "results": [
+    {
+      "asset_base_id": "754e780c-f893-4207-8508-5d94ec8f73f2",
+      "requested_asset_type": "material",
+      "asset_id": "a49ba54a-bbf2-4334-97cf-3979de403292",
+      "asset_type": "material",
+      "display_name": "Cartoon Animal Wallpaper",
+      "slug": "cartoon-animal-wallpaper",
+      "license": "royalty_free",
+      "category": "paper",
+      "author": {
+        "id": "376327",
+        "name": "AR3Designs Digital Design Services"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/a49ba54a-bbf2-4334-97cf-3979de403292/",
+      "status": "exported",
+      "material_blend": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Materials\\01_cartoon-animal-wallpaper_754e780c.blend",
+      "material_blend_bytes": 8237613,
+      "swatch_fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\MaterialSwatches\\01_cartoon-animal-wallpaper_754e780c_swatch.fbx",
+      "swatch_fbx_bytes": 8163340,
+      "material_count": 1
+    },
+    {
+      "asset_base_id": "72ec3d34-9afa-4307-803f-5e884f40ce11",
+      "requested_asset_type": "material",
+      "asset_id": "a3e0d377-edcc-431f-9054-00a9e2cebe2b",
+      "asset_type": "material",
+      "display_name": "Blue Floral Wallpaper",
+      "slug": "blue-floral-wallpaper",
+      "license": "royalty_free",
+      "category": "paper",
+      "author": {
+        "id": "668957",
+        "name": "Celyn Kendrick"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/a3e0d377-edcc-431f-9054-00a9e2cebe2b/",
+      "status": "exported",
+      "material_blend": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Materials\\02_blue-floral-wallpaper_72ec3d34.blend",
+      "material_blend_bytes": 10657116,
+      "swatch_fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\MaterialSwatches\\02_blue-floral-wallpaper_72ec3d34_swatch.fbx",
+      "swatch_fbx_bytes": 2801388,
+      "material_count": 1
+    },
+    {
+      "asset_base_id": "ab54e7d0-5589-4ff2-931f-352281079600",
+      "requested_asset_type": "material",
+      "asset_id": "e54f5f15-a147-45ce-a9a5-6c376e934519",
+      "asset_type": "material",
+      "display_name": "Cloudy Wallpaper",
+      "slug": "cloudy-wallpaper",
+      "license": "royalty_free",
+      "category": "paper",
+      "author": {
+        "id": "41674",
+        "name": "Ceyhun Sevilmi\u015f"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/e54f5f15-a147-45ce-a9a5-6c376e934519/",
+      "status": "exported",
+      "material_blend": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Materials\\03_cloudy-wallpaper_ab54e7d0.blend",
+      "material_blend_bytes": 9900401,
+      "swatch_fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\MaterialSwatches\\03_cloudy-wallpaper_ab54e7d0_swatch.fbx",
+      "swatch_fbx_bytes": 1743436,
+      "material_count": 1
+    },
+    {
+      "asset_base_id": "fc205047-9b98-43ef-8e02-49d494fe8c91",
+      "requested_asset_type": "material",
+      "asset_id": "90f5b9cf-cad8-4845-81ca-9d99d8592031",
+      "asset_type": "material",
+      "display_name": "Procedural Sky",
+      "slug": "procedural-sky",
+      "license": "royalty_free",
+      "category": "fx",
+      "author": {
+        "id": "8575",
+        "name": "chroma 3D"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/90f5b9cf-cad8-4845-81ca-9d99d8592031/",
+      "status": "exported",
+      "material_blend": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Materials\\04_procedural-sky_fc205047.blend",
+      "material_blend_bytes": 8245337,
+      "swatch_fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\MaterialSwatches\\04_procedural-sky_fc205047_swatch.fbx",
+      "swatch_fbx_bytes": 84572,
+      "material_count": 1
+    },
+    {
+      "asset_base_id": "6c1fde68-4811-4117-9d47-a9f081ddc9b7",
+      "requested_asset_type": "material",
+      "asset_id": "ad723150-b5bc-4c0c-959c-ed9ec568281b",
+      "asset_type": "material",
+      "display_name": "RGB Glow",
+      "slug": "rgb-glow",
+      "license": "royalty_free",
+      "category": "fx",
+      "author": {
+        "id": "202880",
+        "name": "Theri Striffer"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/ad723150-b5bc-4c0c-959c-ed9ec568281b/",
+      "status": "exported",
+      "material_blend": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Materials\\05_rgb-glow_6c1fde68.blend",
+      "material_blend_bytes": 8248754,
+      "swatch_fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\MaterialSwatches\\05_rgb-glow_6c1fde68_swatch.fbx",
+      "swatch_fbx_bytes": 84396,
+      "material_count": 1
+    },
+    {
+      "asset_base_id": "8b8e5fdf-3526-46d0-bb50-282bf9ba6dec",
+      "requested_asset_type": "material",
+      "asset_id": "c9471a09-037a-4fa4-b140-790ee2f76fd4",
+      "asset_type": "material",
+      "display_name": "Speckled Toon Shader (Eevee Only)",
+      "slug": "speckled-toon-shader-eevee-only",
+      "license": "royalty_free",
+      "category": "fx",
+      "author": {
+        "id": "205846",
+        "name": "Paco Salas"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/c9471a09-037a-4fa4-b140-790ee2f76fd4/",
+      "status": "exported",
+      "material_blend": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Materials\\06_speckled-toon-shader-eevee-only_8b8e5fdf.blend",
+      "material_blend_bytes": 8394644,
+      "swatch_fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\MaterialSwatches\\06_speckled-toon-shader-eevee-only_8b8e5fdf_swatch.fbx",
+      "swatch_fbx_bytes": 84444,
+      "material_count": 1
+    },
+    {
+      "asset_base_id": "e62d3832-83e4-4fde-8231-074998ee18b7",
+      "requested_asset_type": "material",
+      "asset_id": "4cf7220a-87ab-43e1-ad9a-b865ea97bf39",
+      "asset_type": "material",
+      "display_name": "Wood floor",
+      "slug": "wood-floor",
+      "license": "royalty_free",
+      "category": "wood",
+      "author": {
+        "id": "2440",
+        "name": "belaid ziane"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/4cf7220a-87ab-43e1-ad9a-b865ea97bf39/",
+      "status": "exported",
+      "material_blend": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Materials\\07_wood-floor_e62d3832.blend",
+      "material_blend_bytes": 52022631,
+      "swatch_fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\MaterialSwatches\\07_wood-floor_e62d3832_swatch.fbx",
+      "swatch_fbx_bytes": 14488284,
+      "material_count": 1
+    },
+    {
+      "asset_base_id": "61ce5e73-6687-4eb0-842f-a31874e31d84",
+      "requested_asset_type": "material",
+      "asset_id": "68801d49-22d5-4767-b22a-be6f54ea4120",
+      "asset_type": "material",
+      "display_name": "Narrow Wooden Plank Flooring",
+      "slug": "narrow-wooden-plank-flooring",
+      "license": "royalty_free",
+      "category": "wood",
+      "author": {
+        "id": "1251005",
+        "name": "RADHUNANDAN "
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/68801d49-22d5-4767-b22a-be6f54ea4120/",
+      "status": "exported",
+      "material_blend": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Materials\\08_narrow-wooden-plank-flooring_61ce5e73.blend",
+      "material_blend_bytes": 239846312,
+      "swatch_fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\MaterialSwatches\\08_narrow-wooden-plank-flooring_61ce5e73_swatch.fbx",
+      "swatch_fbx_bytes": 180955068,
+      "material_count": 1
+    },
+    {
+      "asset_base_id": "e6beb3c2-5b62-4cec-add2-49501f00301c",
+      "requested_asset_type": "material",
+      "asset_id": "2851b807-f3ae-49b5-a7f5-f63a36826d53",
+      "asset_type": "material",
+      "display_name": "Marble",
+      "slug": "marble",
+      "license": "royalty_free",
+      "category": "material",
+      "author": {
+        "id": "324157",
+        "name": "Haron Tosh"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/2851b807-f3ae-49b5-a7f5-f63a36826d53/",
+      "status": "exported",
+      "material_blend": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Materials\\09_marble_e6beb3c2.blend",
+      "material_blend_bytes": 239854279,
+      "swatch_fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\MaterialSwatches\\09_marble_e6beb3c2_swatch.fbx",
+      "swatch_fbx_bytes": 84444,
+      "material_count": 1
+    },
+    {
+      "asset_base_id": "bf5a0067-a495-4719-9847-6214dbeb3cc5",
+      "requested_asset_type": "model",
+      "asset_id": "21a4b0ad-4267-4129-be3d-84a4f91e32d5",
+      "asset_type": "model",
+      "display_name": "Children Playground Slide",
+      "slug": "children-playground-slide",
+      "license": "royalty_free",
+      "category": "playground",
+      "author": {
+        "id": "100322",
+        "name": "ALEX SAMUSENKO"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/21a4b0ad-4267-4129-be3d-84a4f91e32d5/",
+      "status": "exported",
+      "fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Models\\10_children-playground-slide_bf5a0067.fbx",
+      "bytes": 12105580
+    },
+    {
+      "asset_base_id": "8c370a48-12aa-4f9e-8fc7-bcbd0345f5e1",
+      "requested_asset_type": "model",
+      "asset_id": "cbe0fc81-e76b-4a1c-aebf-797d1c3bfabe",
+      "asset_type": "model",
+      "display_name": "Playground - Slide swing plataform",
+      "slug": "playground-slide-swing-plataform",
+      "license": "royalty_free",
+      "category": "playground",
+      "author": {
+        "id": "59772",
+        "name": "Lucas Paludo"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/cbe0fc81-e76b-4a1c-aebf-797d1c3bfabe/",
+      "status": "exported",
+      "fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Models\\11_playground-slide-swing-plataform_8c370a48.fbx",
+      "bytes": 35371500
+    },
+    {
+      "asset_base_id": "78d1f498-4df2-46b1-832f-57b3673c1f9e",
+      "requested_asset_type": "model",
+      "asset_id": "79869175-4e60-4578-876c-eaa65caa3903",
+      "asset_type": "model",
+      "display_name": "Playground swing",
+      "slug": "playground-swing",
+      "license": "royalty_free",
+      "category": "playground",
+      "author": {
+        "id": "59772",
+        "name": "Lucas Paludo"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/79869175-4e60-4578-876c-eaa65caa3903/",
+      "status": "exported",
+      "fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Models\\12_playground-swing_78d1f498.fbx",
+      "bytes": 27880396
+    },
+    {
+      "asset_base_id": "3e42210c-4c2c-4e74-91bd-0baa09504103",
+      "requested_asset_type": "model",
+      "asset_id": "d2e3d9c4-c6b4-4a98-a19c-2f131dc6ffed",
+      "asset_type": "model",
+      "display_name": "Vinyl Player 41*33*12",
+      "slug": "vinyl-player-41-33-12",
+      "license": "royalty_free",
+      "category": "audio",
+      "author": {
+        "id": "278937",
+        "name": "Kirill Pavlov"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/d2e3d9c4-c6b4-4a98-a19c-2f131dc6ffed/",
+      "status": "exported",
+      "fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Models\\13_vinyl-player-41-33-12_3e42210c.fbx",
+      "bytes": 15636796
+    },
+    {
+      "asset_base_id": "3bc4c5d5-b256-47ff-a305-0929aaa585f5",
+      "requested_asset_type": "model",
+      "asset_id": "8ae0855a-3f13-453b-9bbc-8a5fa8770d54",
+      "asset_type": "model",
+      "display_name": "Artifical wall panel Gardenia",
+      "slug": "artifical-wall-panel-gardenia",
+      "license": "royalty_free",
+      "category": "fitowall",
+      "author": {
+        "id": "265037",
+        "name": "Samuel Sl\u00e1vik"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/8ae0855a-3f13-453b-9bbc-8a5fa8770d54/",
+      "status": "exported",
+      "fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Models\\14_artifical-wall-panel-gardenia_3bc4c5d5.fbx",
+      "bytes": 27356
+    },
+    {
+      "asset_base_id": "ad445fb4-282f-4732-96c7-55629b26d363",
+      "requested_asset_type": "model",
+      "asset_id": "46631fe6-59d6-4d32-ac72-34823c9bfd90",
+      "asset_type": "model",
+      "display_name": "Clothes Rack with coat hangers",
+      "slug": "clothes-rack-with-coat-hangers",
+      "license": "royalty_free",
+      "category": "wardrobe",
+      "author": {
+        "id": "5591",
+        "name": "Take Refuge TV"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/46631fe6-59d6-4d32-ac72-34823c9bfd90/",
+      "status": "exported",
+      "fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Models\\15_clothes-rack-with-coat-hangers_ad445fb4.fbx",
+      "bytes": 1831148
+    },
+    {
+      "asset_base_id": "92145d70-7d5f-48d0-8937-44b21a2335e8",
+      "requested_asset_type": "model",
+      "asset_id": "3eb2cbb5-18f8-471b-a0d9-0298825d2dc9",
+      "asset_type": "model",
+      "display_name": "Stand",
+      "slug": "stand",
+      "license": "royalty_free",
+      "category": "wardrobe",
+      "author": {
+        "id": "1199355",
+        "name": "J\u00e1n Sta\u0148o"
+      },
+      "gallery_url": "https://www.blenderkit.com/asset-gallery-detail/3eb2cbb5-18f8-471b-a0d9-0298825d2dc9/",
+      "status": "exported",
+      "fbx": "C:\\Users\\rudol\\Desktop\\BlenderKit_Exports_Batch_03\\Models\\16_stand_92145d70.fbx",
+      "bytes": 2034268
+    }
+  ]
+}
